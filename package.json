@@ -22,9 +22,9 @@
     "swiper": "^8.3.1"
   },
   "engines": {
-  "node": "16.x"
-}
-,
+    "node": "20.x"
+  },
+
   "devDependencies": {
     "@types/node": "18.0.4",
     "@types/react": "18.0.15",
