@@ -34,11 +34,12 @@ const perksArray = [
         Icon: HttpIcon,
     },
     {
-        title: 'Front-End Design & Development',
+        title: 'Desktop Application Development',
         Icon: DevicesIcon,
-        text: 'As a web expert, I analyze the target audience to understand their needs and reflect these findings in UI design. Once the design is agreed upon with stakeholders, I bring it to life with smart front-end technologies, ensuring a seamless user experience.',
+        text: 'With strong experience in desktop application development, I work with technologies like Java and C++ to create powerful, cross-platform solutions. Whether it’s a desktop UI using JavaFX or a C++ application with qt, I ensure high performance and seamless user experiences.',
     },
 ];
+
 
 const Perks = () => {
     useEffect(() => {
