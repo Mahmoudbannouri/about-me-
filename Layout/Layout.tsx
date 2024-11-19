@@ -20,7 +20,7 @@ const Layout = ({navbarSx, title ,children ,desc } : ILayout) => {
     <Head >
         <title>{title || "Vito Medlej Personal Portfolio | Lebanese Web Developer"}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="shortcut icon" href="https://res.cloudinary.com/dwcu3wcol/image/upload/v1657099811/log_nkmcys.jpg" />
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/9182/9182862.png" />
   
    
     
