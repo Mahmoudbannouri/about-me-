@@ -30,7 +30,6 @@ const TechTools: React.FC<TechToolsProps> = ({ iconsArray }) => {
         { svg: 'https://static-00.iconduck.com/assets.00/file-type-symfony-icon-512x512-egeqab7f.png' },
         { svg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnhoVwuJmtF1Lu4t9WcsZ7fESV9KdIQ7pVHw&s' },
         { svg: 'https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png' },
-        { svg: '        https://seeklogo.com/images/M/mongodb-logo-D13D67C930-seeklogo.com.png' },
     ];
 
     // Combine predefined techLogos with iconsArray from props
