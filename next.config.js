@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  swcMinify: false, // Use SWC instead of Terser
+    experimental: { 
+        esmExternals: false, // In case WebAssembly modules are involved
+    },
     reactStrictMode: true,
     swcMinify: true,
     images: {
