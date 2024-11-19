@@ -4,7 +4,11 @@ import { ColorModeContext } from '../../../../pages/_app';
 import { centeredStyles } from '../Perks/Perks';
 import gsap from 'gsap';
 
-const TechTools = () => {
+interface TechToolsProps {
+    iconsArray: any[];
+}
+
+const TechTools: React.FC<TechToolsProps> = ({ iconsArray }) => {
     const [dataLoaded, setDataLoaded] = useState(true); // Assume data is loaded
 
     const colorMode = useContext(ColorModeContext);
@@ -28,6 +32,9 @@ const TechTools = () => {
         { svg: 'https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png' },
         { svg: '        https://seeklogo.com/images/M/mongodb-logo-D13D67C930-seeklogo.com.png' },
     ];
+
+    // Combine predefined techLogos with iconsArray from props
+    const combinedLogos = [...techLogos, ...iconsArray];
 
     // turn off "filter" mode when the theme is set to dark mode
     const isfilterMode = (item: any) => colorMode?.mode === 'light' ? false : item?.filter;
@@ -115,8 +122,8 @@ const TechTools = () => {
                         }}
                         xs={12}
                         item>
-                        {techLogos.length > 0 ? (
-                            techLogos.map((item: any, index: number) => (
+                        {combinedLogos.length > 0 ? (
+                            combinedLogos.map((item: any, index: number) => (
                                 <Box
                                     sx={{
                                         display: 'flex',
