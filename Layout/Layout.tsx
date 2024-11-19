@@ -22,6 +22,7 @@ const Layout = ({navbarSx, title ,children ,desc } : ILayout) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/9182/9182862.png" />
   
+  
    
     
 <meta name="description" content={`${desc || 'Vito Medlej personal portfolio, An expert in UI/UX and building complex websites and applications'}`} />
