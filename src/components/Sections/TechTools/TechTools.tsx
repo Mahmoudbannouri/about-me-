@@ -17,7 +17,7 @@ const TechTools: React.FC<TechToolsProps> = ({ iconsArray }) => {
     const techLogos = [
         { svg: 'https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png' },
         { svg: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' },
-        { svg: 'https://static-00.iconduck.com/assets.00/php-icon-2048x2048-79jhb719.png' },
+        { svg: 'https://cdn-icons-png.freepik.com/512/919/919830.png' },
         { svg: 'https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png' },
         { svg: 'https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png' },
         { svg: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png' },
@@ -27,7 +27,7 @@ const TechTools: React.FC<TechToolsProps> = ({ iconsArray }) => {
         { svg: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Qt_logo_neon_2022.svg/1280px-Qt_logo_neon_2022.svg.png' }, // Updated Qt logo
         { svg: 'https://cdn-icons-png.flaticon.com/512/919/919825.png' }, // Updated Node.js logo
         { svg: 'https://logowik.com/content/uploads/images/express-js1720895488.logowik.com.webp' },
-        { svg: 'https://static-00.iconduck.com/assets.00/file-type-symfony-icon-512x512-egeqab7f.png' },
+        { svg: 'https://symfony.com/logos/symfony_white_03.svg' },
         { svg: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnhoVwuJmtF1Lu4t9WcsZ7fESV9KdIQ7pVHw&s' },
         { svg: 'https://upload.wikimedia.org/wikipedia/commons/3/30/JavaFX_text_logo.png' },
     ];
